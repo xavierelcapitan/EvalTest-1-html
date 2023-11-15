@@ -14,6 +14,7 @@
     </head>
     <body>
 
+<!-- HEADER -->
         <header>
             <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
                 <div class="container">
@@ -29,22 +30,27 @@
                                     <a class="nav-link pe-5" href="/agenda">Notre agenda</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link pe-5" href="/contact">Contact</a>
+                                    <a class="nav-link pe-5" href="#contact">Contact</a>
                                 </li>
                             </ul>
                         </div>
                 </div>
             </nav>
         </header>
+
 <hr class="m-5 invisible">
+        
+<!-- MAIN -->
         <main class="mb-5">
-            <section class="container my-5" id="activites">
+            <!-- COVER -->
+            <section class="container my-5" id="cover">
                 <div class="mb-5 text-center">
                     <h1 class="mb-5">
                     Association Purple Birds
                     </h1>
                     <span>L'association Purple Bird, représente 50 entreprises locale qui se réunissent afin de développer leur business et leur croissance.</span>
                 </div>
+                <!-- CARDS -->
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card">
@@ -52,7 +58,7 @@
                             <div class="card-body">   
                                 <h5 class="card-title">Boostez mon business</h5>
                                 <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam atque, saepe a labore esse tempore, inventore dolore quam assumenda quia sint consectetur dicta maiores vero repellendus officiis itaque? Perspiciatis, adipisci?</p>
-                                <a href="/contact" class="btn btn-success">Nous contacter</a>
+                                <a href="#contact" class="btn btn-success">Nous contacter</a>
                             </div> 
                         </div>
                     </div>
@@ -62,7 +68,7 @@
                             <div class="card-body">   
                                 <h5 class="card-title">Me former</h5>
                                 <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam atque, saepe a labore esse tempore, inventore dolore quam assumenda quia sint consectetur dicta maiores vero repellendus officiis itaque? Perspiciatis, adipisci?</p>
-                                <a href="/contact" class="btn btn-info">En savoir plus</a>
+                                <a href="#contact" class="btn btn-info">En savoir plus</a>
                             </div> 
                         </div>
                     </div>
@@ -78,7 +84,10 @@
                     </div>
                 </div>
             </section>
+
 <hr class="m-5 invisible">
+
+            <!-- PRESENTATION -->
             <section class="by-5" id="presentation">
                 <div class="container">
                     <div class="row">
@@ -97,31 +106,40 @@
                     </div>
                 </div>
             </section>
+
 <hr class="m-5 invisible">
-            <section>
+
+            <!-- CONTACT -->
+            <section id="contact">
                 <form class="container jumbotron my-5" action="">
                     <h2 class="text-center mb-5">Nous contacter</h2>
                     <div class="row mb-3">
                         <div class="col-sm-4 mb-3">
                             <input type="text" class="form-control" placeholder="Nom" required>
-                          </div>
-                          <div class="col-sm-4 mb-3">
+                        </div>
+                        <div class="col-sm-4 mb-3">
                             <input type="email" class="form-control" placeholder="Email" required>
-                          </div>
-                          <div class="col-sm-4 mb-3">
+                        </div>
+                        <div class="col-sm-4 mb-3">
                             <input type="phone" class="form-control" placeholder="Téléphone" required>
-                          </div>
+                        </div>
                     </div>
                     <div class="input-group" style="height: 100px;">
                         <span class="input-group-text">Message</span>
                         <textarea class="form-control" aria-label="Message"></textarea>
-                      </div>
-                      <div class="col-4 my-5 d-flex">
+                    </div>
+                    <div class="mt-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="validation-form" required>
+                        <label class="form-check-label" for="validation-form">Je souhaite être recontacté ...... lorem.</label>
+                    </div>
+                    <div class="col-4 my-3 d-flex">
                         <button class="btn btn-success mb-5 flex-fill" type="submit">Envoyer</button>
-                      </div>
+                    </div>
                 </form>
             </section>
         </main>
+
+<!-- FOOTER -->
         <footer>
             <div class="container-fluid">
                 <div class="">
